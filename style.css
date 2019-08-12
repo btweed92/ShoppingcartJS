@@ -1,0 +1,17 @@
+body{
+background-color: green;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%
+}
+
+table, th, td{
+  border: 1px solid black;
+  width: 30%;
+}
+tr:hover {background-color: white;}
+tr:nth-child(even){background-color: gray}
